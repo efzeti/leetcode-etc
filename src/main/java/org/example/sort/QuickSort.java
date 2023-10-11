@@ -3,15 +3,6 @@ package org.example.sort;
 import java.util.Arrays;
 
 public class QuickSort {
-
-    public static void main(String[] args) {
-        int[] arr = {-2, 4, 2, 3, 6, 9, 10, -1, 1, 2, 1};
-        System.out.println(Arrays.toString(arr));
-        quickSort(arr);
-        System.out.println(Arrays.toString(arr));
-    }
-
-
     public static void quickSort(int[] arr) {
         quickSort(arr, 0, arr.length - 1);
     }
